@@ -1,5 +1,8 @@
 name: SIP Daily Progress Log
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "30 3 * * *"   # 9:00 AM IST
